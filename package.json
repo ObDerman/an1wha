@@ -1,0 +1,28 @@
+{
+    "name": "whatsapp-n8n-bot",
+    "version": "1.0.0",
+    "description": "WhatsApp AI Bot with n8n and Grok Integration",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "whatsapp",
+        "n8n",
+        "grok",
+        "ai",
+        "automation"
+    ],
+    "author": "Bader",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
